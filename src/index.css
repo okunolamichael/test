@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.text-orange {
+    color: #FF6B00;
+}
+
+.line {
+    width: 100%;
+    margin-top: 3rem;
+    border: 1px solid #FF6B00;
+    color: #FF6B00;
+
+}
+
+.card {
+    background: #FF6B00;
+}
+
+.bank {
+    width: 150px;
+    background: #FFF8F2;
+    color: #000
+}
+
+.bank img {
+    color: #000;
+}
+
+.content {
+    background: #FFF8F2;
+}
+
+.text {
+    border: 2px solid #000;
+}
