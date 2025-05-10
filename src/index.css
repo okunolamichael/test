@@ -1,6 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@font-face {
+    font-family: 'Gilroy';
+    src: url('./assets/fonts/Gilroy-SemiBold.ttf') format('truetype');
+
+}
+
+body {
+    font-family: 'Gilroy', sans-serif;
+}
 
 .text-orange {
     color: #FF6B00;
@@ -8,7 +17,7 @@
 
 .line {
     width: 100%;
-    margin-top: 3rem;
+    margin-top: 1rem;
     border: 1px solid #FF6B00;
     color: #FF6B00;
 

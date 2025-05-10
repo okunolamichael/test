@@ -9,6 +9,9 @@ export default {
       colors: {
         "orange": "#FF6B00",
       },
+      fontFamily: {
+        custom: ['Gilroy', 'sans-serif'],
+      },
     },
   },
   plugins: [],
