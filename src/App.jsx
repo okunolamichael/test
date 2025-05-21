@@ -5,7 +5,6 @@ import bank from './assets/bank.png'
 import transfer from './assets/transfer.png'
 import secure from './assets/secure.png'
 import logo from './assets/logo.png'
-import payment from './assets/payment.png'
 
 const App = () => {
   return (
@@ -59,7 +58,7 @@ const App = () => {
           
           <section className='cardnumber mb-8'>
             <p className='font-semibold'>Card Number</p>
-            <input type="text" src={payment} placeholder='1234 5678 9123 1234' className='h-18 w-full p-4 rounded-xl text text-xl' />
+            <input type="text" placeholder='1234 5678 9123 1234' className='h-18 w-full p-4 rounded-xl text text-xl' />
           </section>
 
           <section className='details flex'>
